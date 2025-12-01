@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #fafafa;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      position: sticky;
+      top: 0;
+      background: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #eee;
+    }
+    header nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #222;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.75rem;
+      margin-bottom: 1rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.25rem;
+      background: black;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .projects-grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .project-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .project-card h3 {
+      margin-top: 0;
+    }
+    .tags {
+      margin: 0.75rem 0;
+    }
+    .tag {
+      display: inline-block;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+      background: #eee;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.85rem;
+      border-radius: 4px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      color: #666;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo"><strong>Your Name</strong></div>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Your Name</h1>
+  <p>Short tagline about what you do and the value you bring.</p>
+  <a href="#projects" class="btn">View Projects</a>
+</div>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>Project One</h3>
+      <p>One-sentence description of what the project does and why it matters.</p>
+      <div class="tags">
+        <span class="tag">React</span><span class="tag">API</span><span class="tag">UI</span>
+      </div>
+      <a href="#">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project Two</h3>
+      <p>Another clean description that signals competence.</p>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">ML</span>
+      </div>
+      <a href="#">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project Three</h3>
+      <p>Short, straightforward explanation of what you built.</p>
+      <div class="tags">
+        <span class="tag">Node</span><span class="tag">Backend</span>
+      </div>
+      <a href="#">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project Four</h3>
+      <p>Demonstrates a skill or tool you want recruiters to notice.</p>
+      <div class="tags">
+        <span class="tag">SQL</span><span class="tag">Data</span>
+      </div>
+      <a href="#">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project Five</h3>
+      <p>A simple, effective description of what the project solves.</p>
+      <div class="tags">
+        <span class="tag">C++</span><span class="tag">Algorithms</span>
+      </div>
+      <a href="#">View on GitHub</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Project Six</h3>
+      <p>Keep it concise. Focus on tangible impact, not drama.</p>
+      <div class="tags">
+        <span class="tag">Design</span><span class="tag">Frontend</span>
+      </div>
+      <a href="#">View on GitHub</a>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <h2>About</h2>
+  <p>
+    Brief professional summary. Mention your core strengths, languages you use,
+    and the types of problems you enjoy solving. Keep it focused and factual.
+  </p>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: yourname@email.com<br>
+     LinkedIn: <a href="#">your-link</a><br>
+     GitHub: <a href="#">your-username</a>
+  </p>
+</section>
+
+<footer>
+  © Your Name
+</footer>
+
+</body>
+</html>
+
